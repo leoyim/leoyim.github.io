@@ -10,3 +10,5 @@ cache:
 script:
   - ./deploy.sh
 branch: master
+addons:
+  ssh_known_hosts: 140.82.113.3
