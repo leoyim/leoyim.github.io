@@ -9,4 +9,4 @@ script:
   - ./deploy.sh
 branch: master
 before_install:
-  - chmod +x mvnw
+  - chmod +x deploy.sh
