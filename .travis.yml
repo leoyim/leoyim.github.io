@@ -2,11 +2,11 @@ language: node_js
 sudo: required
 node_js:
   - "lts/*"
+before_install:
+  - chmod +x deploy.sh
 cache:
   directories:
     - node_modules
 script:
   - ./deploy.sh
 branch: master
-before_install:
-  - chmod +x deploy.sh
